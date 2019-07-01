@@ -10,7 +10,7 @@ class Faq extends IOModel
     //public $incrementing = false; //necessário para a pk não virar int
     protected $primaryKey = 'id';
 
-    protected $fillable = ['pergunta','resposta','observacao'];
+    protected $fillable = ['tipo','pergunta','resposta','observacao'];
 
     protected $dates = ['deleted_at'];
 

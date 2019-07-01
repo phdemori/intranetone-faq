@@ -18,6 +18,7 @@ class FaqRequest extends IORequest
     {
         $input = $this->sanitize();
         return [           
+            'tipo' => 'required',
             'pergunta' => 'required',
             'resposta' => 'required'
         ];
@@ -26,6 +27,7 @@ class FaqRequest extends IORequest
     public function messages()
     {
         return [
+            'tipo' => 'A Categoria é obrigatória',
             'pergunta' => 'A Pergunta é obrigatória',
             'resposta' => 'A Resposta é obrigatória'
         ];

@@ -11,11 +11,8 @@
 	"_id" => "default-table",
 	"_columns"=> [
 			["title" => "Id"],
-			["title" => "Condomínio"],
-			["title" => "Síndico"],
-			["title" => "Email"],
-			["title" => "Telefone"],
-			["title" => "Celular"],
+			["title" => "Categoria"],
+			["title" => "Pergunta"],
 			["title" => "Ações"]
 		]
 	])

@@ -14,26 +14,26 @@ class FaqSeeder extends Seeder
         if (!Service::where('service', 'Condomínio')->exists()) {
             Service::insert([
                 'service' => "Faq",
-                'alias' => 'faqs',
+                'alias' => 'faq',
                 'ico' => 'ico-building',
-                'description' => 'Faqs do Site',
+                'description' => 'Faq do Site',
                 'order' => Service::max('order') + 1,
             ]);
         }
         //seta privilegios padrão para o role odin
         $odinRole = Sentinel::findRoleBySlug('odin');
-        $odinRole->addPermission('faqs.view');
-        $odinRole->addPermission('faqs.create');
-        $odinRole->addPermission('faqs.update');
-        $odinRole->addPermission('faqs.delete');
+        $odinRole->addPermission('faq.view');
+        $odinRole->addPermission('faq.create');
+        $odinRole->addPermission('faq.update');
+        $odinRole->addPermission('faq.delete');
         $odinRole->save();
 
         //seta privilegios padrão para o role admin
         $adminRole = Sentinel::findRoleBySlug('admin');
-        $adminRole->addPermission('faqs.view');
-        $adminRole->addPermission('faqs.create');
-        $adminRole->addPermission('faqs.update');
-        $adminRole->addPermission('faqs.delete');
+        $adminRole->addPermission('faq.view');
+        $adminRole->addPermission('faq.create');
+        $adminRole->addPermission('faq.update');
+        $adminRole->addPermission('faq.delete');
         $adminRole->save();
     }
 }

@@ -33,11 +33,6 @@
   @stop
 
 @section('footer_scripts')
-<script src="{{ asset('js/cidades_otimizado.js') }}" charset="ISO-8859-1" type="text/javascript"></script>
-<script src="{{ asset('js/pickadate-full.min.js') }}" type="text/javascript"></script>
-
-<script src="{{ asset('io/vendors/jquery.mask.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('io/vendors/jquery.autocomplete.min.js') }}" type="text/javascript"></script>
 
 <script src="{{ asset('io/services/io-faq-babel.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('io/services/io-faq-mix.min.js') }}" type="text/javascript"></script>

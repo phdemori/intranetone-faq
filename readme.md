@@ -6,7 +6,7 @@ Cadastro de perguntas e respostas (FAQ).
 ## Instalação
 
 ```sh
-composer require agileti/iofaq:dev-master
+composer require agileti/iofaq
 ```
 ```sh
 php artisan io-faq:install
@@ -27,6 +27,6 @@ io.compile({
 ```
 - Compile os assets e faça o cache
 ```sh
-npm run dev|prod|watch
 php artisan config:cache
+npm run dev|prod|watch
 ```

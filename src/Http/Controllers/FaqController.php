@@ -61,6 +61,7 @@ class FaqController extends IOController
 
         $_new = (object) $request->all();
         $_old = Faq::find($id);
+        $_old->tipo = $_new->tipo;
         $_old->pergunta = $_new->pergunta;
         $_old->resposta = $_new->resposta;
         $_old->observacao = $_new->observacao;
