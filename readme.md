@@ -1,6 +1,6 @@
 
 # Cadastro de condomínio para IntranetOne
-Cadastro de condomínios e suas vigências.
+Cadastro de perguntas e respostas (FAQ).
 ## Conteúdo
  
 ## Instalação
