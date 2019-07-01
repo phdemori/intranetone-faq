@@ -1,5 +1,5 @@
 
-# Cadastro de condomínio para IntranetOne
+# Cadastro de faq para IntranetOne
 Cadastro de perguntas e respostas (FAQ).
 ## Conteúdo
  
