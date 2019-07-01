@@ -1,0 +1,28 @@
+{
+    "name": "agileti/iofaq",
+    "description": "serviço de faq para perguntas e respostas",
+    "authors": [
+        {
+            "name": "mdisconzi",
+            "email": "mdisconzi@bitbucket.org"
+        },
+        {
+            "name": "Paulo Henrique Demori",
+            "email": "phdemori@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Agileti\\IOFaq\\": "src/"
+        }
+    },
+    "require": {
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "\\Agileti\\IOFaq\\IOFaqServiceProvider"
+          ]
+      }
+  }
+}

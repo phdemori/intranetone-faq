@@ -1,0 +1,32 @@
+{
+  "description": "Faq assets package for IntranetOne",
+  "license": "MIT",
+  "main": "wploader.js",
+  "name": "intranetone-faq",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Marcelo Disconzi",
+      "email": "mdisconzi@gmail.com"
+    },
+    {
+      "name": "Thiago Brauer",
+      "email": "thiagobrauer@gmail.com"
+    },
+    {
+      "name": "Paulo Henrique Demori",
+      "email": "phdemori@gmail.com"
+    }
+  ],
+  "keywords": [
+    "Laravel",
+    "IntranetOne",
+    "Intranet CMS",
+    "Dataview",
+    "Faq"
+  ],
+  "IODependencies": {
+    "moment": "^2.21.0",
+    "moment-duration-format": "^2.2.2"
+  }
+}
